@@ -56,7 +56,7 @@ export const projects = [
   description:
     "A modern, responsive developer portfolio built from scratch with React, Vite, and Tailwind CSS. Features scroll-reveal animations, dark theme with dual-accent design, and a clean startup-style UI.",
   tech: ["React", "Vite", "Tailwind CSS", "JavaScript", "CSS Animations"],
-  category: "Full Stack",
+  category: "Frontend",
   highlights: [
     "Custom scroll-reveal hook using IntersectionObserver",
     "Responsive dark theme with cyan + lime dual accents",
