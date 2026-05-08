@@ -52,6 +52,22 @@ export const skills = [
 
 export const projects = [
   {
+  title: "Personal Portfolio Website",
+  description:
+    "A modern, responsive developer portfolio built from scratch with React, Vite, and Tailwind CSS. Features scroll-reveal animations, dark theme with dual-accent design, and a clean startup-style UI.",
+  tech: ["React", "Vite", "Tailwind CSS", "JavaScript", "CSS Animations"],
+  category: "Full Stack",
+  highlights: [
+    "Custom scroll-reveal hook using IntersectionObserver",
+    "Responsive dark theme with cyan + lime dual accents",
+    "Shimmer gradient animations & floating orb effects",
+  ],
+  github: "https://github.com/vasanthikondreddy/portfolio",  
+  live: "https://portfolio-vasanthikondreddy.vercel.app/",                
+  featured: false,
+  gradient: "from-sky-500/20 to-indigo-600/10",
+},
+  {
     title: "Community Event Volunteer & Logistics Platform",
     description:
       "A full-stack platform to coordinate rural youth participation in social initiatives. Features real-time event updates, role-based access control, and secure JWT authentication.",
@@ -62,8 +78,8 @@ export const projects = [
       "Real-time updates via Socket.io",
       "Deployed on AWS EC2 with SSL & PM2",
     ],
-    github: "https://github.com",
-    live: null,
+    github: "https://github.com/vasanthikondreddy/CommunityUnity",
+    live: "http://13.220.86.201:5174/",
     featured: true,
     gradient: "from-cyan-500/20 to-blue-600/10",
   },
@@ -78,8 +94,8 @@ export const projects = [
       "Real-time chart visualization",
       "Deployed on Vercel",
     ],
-    github: "https://github.com",
-    live: null,
+    github: "https://github.com/vasanthikondreddy/AI-ImpactSense",
+    live: "https://ai-impact-sense-3pyi.vercel.app/",
     featured: true,
     gradient: "from-lime-500/20 to-green-600/10",
   },
@@ -94,8 +110,8 @@ export const projects = [
       "Feature engineering & data preprocessing",
       "End-to-end pipeline",
     ],
-    github: "https://github.com",
-    live: null,
+    github: "https://github.com/vasanthikondreddy/SmartAI-Transport-Occupancy",
+    live: "https://smart-ai-transport-occupancy.vercel.app/",
     featured: false,
     gradient: "from-purple-500/20 to-pink-600/10",
   },
