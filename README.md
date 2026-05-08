@@ -23,34 +23,10 @@ npm run dev
 # Build for production
 npm run build
 
-# Preview production build
-npm run preview
-```
 
-## 📁 Folder Structure
 
+s
 ```
-src/
-├── components/
-│   ├── Navbar.jsx
-│   ├── Hero.jsx
-│   ├── About.jsx
-│   ├── Skills.jsx
-│   ├── Projects.jsx
-│   ├── Experience.jsx
-│   ├── Education.jsx
-│   ├── Contact.jsx
-│   └── Footer.jsx
-├── data/
-│   └── portfolio.js        ← All content (easy to update)
-├── hooks/
-│   └── useReveal.js        ← Scroll animation hook
-├── App.jsx
-├── main.jsx
-└── index.css
-```
-
-## 🎨 Customization
 
 All content lives in `src/data/portfolio.js`. Update:
 - `personalInfo` — name, email, GitHub/LinkedIn URLs
@@ -60,8 +36,4 @@ All content lives in `src/data/portfolio.js`. Update:
 
 ## 📦 Deploy
 
-Works out of the box on **Vercel**, **Netlify**, or **GitHub Pages**.
-
-```bash
-npm run build   # Output in /dist
-```
+vercel:**https://portfolio-vasanthikondreddy.vercel.app/**
